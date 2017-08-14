@@ -1,0 +1,280 @@
+/*  #fff = white
+    #425cba = blue
+    #000 = black
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display');
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: all;
+}
+
+body {
+    line-height: 1.5rem;
+    background-color: #fff;
+    font-family: "Open Sans Condensed", sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #000;
+    font-family: "Playfair Display", serif;
+    color: #fff;
+}
+
+nav a {
+    background-color: #fff;
+}
+
+h3 {
+    color: #425cba;
+    font-family: "Playfair Display", serif;
+}
+figure{
+    position: relative;
+}
+figtext{
+    position: absolute;
+    bottom: 2.5%;
+    left:2.5%;
+}
+input[type="submit"] {
+    color: #fff;
+    background-color: #425cba;
+}
+
+fieldset {
+    border: none;
+}
+
+.error {
+    margin-left: 2.5%;
+    display: block;
+    text-align: left;
+}
+
+.error ul li {
+    list-style-type: decimal;
+    margin: 0;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    width: calc(25% - 10px);
+    border-left: solid #fff 1px;
+}
+
+footer ul li:first-child {
+    border: none;
+}
+
+footer ul li a {
+    color: #fff;
+}
+
+.cite ul li {
+    list-style: upper-roman;
+    text-align: left;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #425cba;
+}
+
+p {
+    text-align: left;
+    margin: 2.5%;
+}
+
+@media screen and (max-width:35rem) {
+    body {
+        font-size: 0.618rem;
+    }
+    .wrapper {
+        max-width: 100%;
+    }
+    figure {
+        margin: 0;
+    }
+    figure img {
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    figtext {
+        margin: 2.5%;
+    }
+    /*header*/
+    nav a {
+        display: block;
+        width: 95%;
+        margin: 2.5%;
+        padding: 2.5% 0;
+    }
+    /*form*/
+    input {
+        display: block;
+        margin: 2.5% 0;
+        width: 100%;
+    }
+     textarea {
+        height: 75px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 35rem) and (max-width: 80rem) {
+    body {
+        font-size: 1rem;
+    }
+    nav {
+        margin: 5% 0;
+    }
+    nav a {
+        display: inline-block;
+        width: calc(50% - 2.5%);
+        padding: 2.5% 0;
+    }
+    nav a::first-child {
+        margin-right: 5%;
+    }
+    nav a:hover {
+        color: #425cba;
+    }
+    .masthead figure img {
+        max-width: 100%;
+    }
+    figtext {
+        margin: 5%;
+    }
+    /*news items*/
+    .container figure {
+        display: inline;
+        margin: 0;
+    }
+    .container figure img {
+        margin: 0 2.5% 2.5% 2.5%;
+        max-width: 40%;
+        float: left;
+    }
+    .container figure img::after {
+        clear: both;
+    }
+    .container p {
+        margin: 2.5%;
+    }
+    .story1 p {
+        margin-top: 0;
+    }
+    /*form*/
+    input {
+        display: block;
+        margin: 2.5% 0;
+        width: 100%;
+    }
+    fieldset {
+        border: none;
+        width: 40%;
+        display: inline-block;
+        margin: 2.5%;
+    }
+    textarea {
+        height: 125px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 75rem) {
+    .wrapper {
+        max-width: 100rem;
+    }
+    body {
+        text-align: left;
+        font-size: 1.618;
+    }
+    header img,
+    h1,
+    h2,
+    h3,
+    footer p,
+    footer ul {
+        margin-left: 2.5%;
+    }
+    header img {
+        display: inline;
+        max-width: 25%;
+    }
+    nav {
+        margin: 5% 0;
+        width: 50%;
+        display: inline-block;
+    }
+    nav a {
+        display: inline-block;
+        width: calc(25% - 2.5%);
+        text-align: center;
+        padding: 2.5% 0;
+    }
+    nav a::first-child {
+        margin-right: 5%;
+    }
+    nav a:hover {
+        color: #425cba;
+    }
+    /*news items*/
+    .story2,
+    .story3 {
+        width: 50%;
+        float: left;
+    }
+    .story2 p,
+    .story2 h3,
+    .story3 h3,
+    .story3 p {
+        margin: 5%;
+    }
+    /*form*/
+    fieldset:first-child {
+        width: 25%;
+        display: inline-block;
+        margin: 2.5%;
+    }
+    fieldset:last-child {
+        width: 55%;
+        display: inline-block;
+        margin: 2.5%;
+    }
+    footer {
+        text-align: left;
+    }
+    footer ul {
+        width: 25%;
+        display: inline-block;
+    }
+    footer ul li {
+        border: none;
+    }
+    footer h6 {
+        display: inline-block;
+        margin-left: 2.5%;
+    }
+}
