@@ -255,6 +255,17 @@ p {
     .story3 p {
         margin: 5%;
     }
+     /*form*/
+    fieldset:first-child {
+        width: 25%;
+        display: inline-block;
+        margin: 2.5%;
+    }
+    fieldset:last-child {
+        width: 55%;
+        display: inline-block;
+        margin: 2.5%;
+    }
     footer {
         text-align: left;
     }
