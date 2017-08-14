@@ -160,7 +160,7 @@ p {
     nav a:hover {
         color: #425cba;
     }
-    .masthead figure{
+    .masthead figure img{
         width: 100%;
     }
     figtext {
@@ -220,7 +220,7 @@ p {
         display: inline;
         max-width: 25%;
     }
-    header figure{
+    header figure img{
         width: 100%;
     }
     nav {
