@@ -208,7 +208,7 @@ p {
         text-align: left;
         font-size: 1.618;
     }
-    header img,
+    .logo img,
     h1,
     h2,
     h3,
@@ -216,7 +216,7 @@ p {
     footer ul {
         margin-left: 2.5%;
     }
-    header img {
+    .logo img {
         display: inline;
         max-width: 25%;
     }
