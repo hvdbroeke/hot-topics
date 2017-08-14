@@ -4,7 +4,7 @@
 */
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display');
-.clearfix::after {
+.clearfix:after {
     content: "";
     display: block;
     clear: all;
@@ -154,11 +154,8 @@ p {
         width: calc(50% - 2.5%);
         padding: 2.5% 0;
     }
-    nav a::first-child {
+    nav a:first-child {
         margin-right: 5%;
-    }
-    nav a:hover {
-        color: #425cba;
     }
     .masthead figure img {
         max-width: 100%;
@@ -176,7 +173,7 @@ p {
         max-width: 40%;
         float: left;
     }
-    .container figure img::after {
+    .container figure img:after {
         clear: both;
     }
     .container p {
@@ -231,11 +228,8 @@ p {
         text-align: center;
         padding: 2.5% 0;
     }
-    nav a::first-child {
+    nav a:first-child {
         margin-right: 5%;
-    }
-    nav a:hover {
-        color: #425cba;
     }
     /*news items*/
     .story1 h3{
@@ -253,15 +247,12 @@ p {
         margin: 5%;
     }
     /*form*/
-    fieldset::first-child {
+    fieldset:first-child {
         width: 30%;
         display: inline-block;
         margin: 2.5% 0 2.5% 2.5%;
     }
-    input{
-        display: block;
-    }
-    fieldset::last-child {
+    fieldset:last-child {
         width: 50%;
         display: inline-block;
         margin: 2.5% 2.5% 2.5% 0;
