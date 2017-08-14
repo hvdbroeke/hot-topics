@@ -160,8 +160,8 @@ p {
     nav a:hover {
         color: #425cba;
     }
-    .masthead figure img {
-        max-width: 100%;
+    .masthead figure{
+        width: 100%;
     }
     figtext {
         margin: 5%;
@@ -238,18 +238,6 @@ p {
         margin-right: 5%;
     }
     /*news items*/
-     .story1 figure {
-        display: inline;
-        margin: 0;
-    }
-    .story1 figure img {
-        margin: 0 2.5% 2.5% 2.5%;
-        max-width: 40%;
-        float: left;
-    }
-    .story figure img::after {
-        clear: both;
-    }
     .story1 h3{
         margin: 2.5%;
     }
