@@ -161,7 +161,7 @@ p {
         color: #425cba;
     }
     .masthead figure img{
-        width: 100%;
+        max-width: 100%;
     }
     figtext {
         margin: 5%;
@@ -220,7 +220,7 @@ p {
         display: inline;
         max-width: 25%;
     }
-    header figure img{
+    .masthead figure img{
         width: 100%;
     }
     nav {
