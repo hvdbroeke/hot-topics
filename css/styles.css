@@ -4,7 +4,7 @@
 */
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display');
-.clearfix:after {
+.clearfix::after {
     content: "";
     display: block;
     clear: all;
@@ -105,7 +105,7 @@ p {
     margin: 2.5%;
 }
 
-@media only screen and (max-width:35rem) {
+@media screen and (max-width:35rem) {
     body {
         font-size: 0.618rem;
     }
@@ -142,7 +142,7 @@ p {
     }
 }
 
-@media only screen and (min-width: 35rem) and (max-width: 80rem) {
+@media screen and (min-width: 35rem) and (max-width: 80rem) {
     body {
         font-size: 1rem;
     }
@@ -154,8 +154,11 @@ p {
         width: calc(50% - 2.5%);
         padding: 2.5% 0;
     }
-    nav a:first-child {
+    nav a::first-child {
         margin-right: 5%;
+    }
+    nav a:hover {
+        color: #425cba;
     }
     .masthead figure img {
         max-width: 100%;
@@ -164,16 +167,16 @@ p {
         margin: 5%;
     }
     /*news items*/
-    .story1 figure {
+    .container figure {
         display: inline;
         margin: 0;
     }
-    .story1 figure img {
+    .container figure img {
         margin: 0 2.5% 2.5% 2.5%;
         max-width: 40%;
         float: left;
     }
-    .story1 figure img:after {
+    .container figure img::after {
         clear: both;
     }
     .container p {
@@ -200,7 +203,7 @@ p {
     }
 }
 
-@media only screen and (min-width: 80rem) {
+@media screen and (min-width: 80rem) {
     body {
         text-align: left;
         font-size: 1.618;
@@ -217,6 +220,9 @@ p {
         display: inline;
         max-width: 25%;
     }
+    header figure{
+        max-width: 100%;
+    }
     nav {
         margin: 5% 0;
         width: 50%;
@@ -228,7 +234,7 @@ p {
         text-align: center;
         padding: 2.5% 0;
     }
-    nav a:first-child {
+    nav a::first-child {
         margin-right: 5%;
     }
     /*news items*/
@@ -247,12 +253,15 @@ p {
         margin: 5%;
     }
     /*form*/
-    fieldset:first-child {
+    fieldset::first-child {
         width: 30%;
         display: inline-block;
         margin: 2.5% 0 2.5% 2.5%;
     }
-    fieldset:last-child {
+    input{
+        display: block;
+    }
+    fieldset::last-child {
         width: 50%;
         display: inline-block;
         margin: 2.5% 2.5% 2.5% 0;
