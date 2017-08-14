@@ -216,8 +216,10 @@ p {
     footer ul {
         margin-left: 2.5%;
     }
+    .logo {
+        display: inline;   
+    }
     .logo img {
-        display: inline;
         max-width: 25%;
     }
     .masthead figure img{
