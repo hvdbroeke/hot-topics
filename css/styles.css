@@ -164,16 +164,16 @@ p {
         margin: 5%;
     }
     /*news items*/
-    .container figure {
+    .story1 figure {
         display: inline;
         margin: 0;
     }
-    .container figure img {
+    .story1 figure img {
         margin: 0 2.5% 2.5% 2.5%;
         max-width: 40%;
         float: left;
     }
-    .container figure img:after {
+    .story1 figure img:after {
         clear: both;
     }
     .container p {
