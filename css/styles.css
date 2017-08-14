@@ -204,9 +204,6 @@ p {
 }
 
 @media screen and (min-width: 80rem) {
-    .wrapper {
-        max-width: 100rem;
-    }
     body {
         text-align: left;
         font-size: 1.618;
@@ -256,7 +253,7 @@ p {
         margin: 5%;
     }
     /*form*/
-    fieldset:first-child {
+    fieldset::first-child {
         width: 30%;
         display: inline-block;
         margin: 2.5% 0 2.5% 2.5%;
@@ -264,7 +261,7 @@ p {
     input{
         display: block;
     }
-    fieldset:last-child {
+    fieldset::last-child {
         width: 50%;
         display: inline-block;
         margin: 2.5% 2.5% 2.5% 0;
