@@ -203,9 +203,9 @@ p {
     }
 }
 
-@media screen and (max-width: 120rem) {
+@media screen and (min-width: 80rem) {
     .wrapper {
-        max-width: 100rem;
+        max-width: 80rem;
     }
     body {
         text-align: left;
