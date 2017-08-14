@@ -203,7 +203,7 @@ p {
     }
 }
 
-@media screen and (min-width: 75rem) {
+@media screen and (min-width: 80rem) {
     .wrapper {
         max-width: 100rem;
     }
@@ -241,6 +241,9 @@ p {
         color: #425cba;
     }
     /*news items*/
+    .story1 h3{
+        margin: 2.5%;
+    }
     .story2,
     .story3 {
         width: 50%;
