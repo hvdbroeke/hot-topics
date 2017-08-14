@@ -105,7 +105,7 @@ p {
     margin: 2.5%;
 }
 
-@media screen and (max-width:35rem) {
+@media only screen and (max-width:35rem) {
     body {
         font-size: 0.618rem;
     }
@@ -142,7 +142,7 @@ p {
     }
 }
 
-@media screen and (min-width: 35rem) and (max-width: 80rem) {
+@media only screen and (min-width: 35rem) and (max-width: 80rem) {
     body {
         font-size: 1rem;
     }
@@ -203,7 +203,7 @@ p {
     }
 }
 
-@media screen and (min-width: 80rem) {
+@media only screen and (min-width: 80rem) {
     body {
         text-align: left;
         font-size: 1.618;
