@@ -237,7 +237,7 @@ p {
     nav a::first-child {
         margin-right: 5%;
     }
-    nav a:hover {
+    nav a::hover {
         color: #425cba;
     }
     /*news items*/
@@ -256,12 +256,12 @@ p {
         margin: 5%;
     }
     /*form*/
-    fieldset:first-child {
+    fieldset::first-child {
         width: 25%;
         display: inline-block;
         margin: 2.5%;
     }
-    fieldset:last-child {
+    fieldset::last-child {
         width: 55%;
         display: inline-block;
         margin: 2.5%;
