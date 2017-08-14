@@ -203,7 +203,7 @@ p {
     }
 }
 
-@media screen and (min-width: 80rem) {
+@media screen and (max-width: 100rem) {
     body {
         text-align: left;
         font-size: 1.618;
