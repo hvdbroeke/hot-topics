@@ -167,16 +167,16 @@ p {
         margin: 5%;
     }
     /*news items*/
-    .container figure {
+    .story1 figure {
         display: inline;
         margin: 0;
     }
-    .container figure img {
+    .story1 figure img {
         margin: 0 2.5% 2.5% 2.5%;
         max-width: 40%;
         float: left;
     }
-    .container figure img::after {
+    .story figure img::after {
         clear: both;
     }
     .container p {
@@ -221,7 +221,7 @@ p {
         max-width: 25%;
     }
     header figure{
-        max-width: 100%;
+        width: 100%;
     }
     nav {
         margin: 5% 0;
@@ -238,6 +238,18 @@ p {
         margin-right: 5%;
     }
     /*news items*/
+     .story1 figure {
+        display: inline;
+        margin: 0;
+    }
+    .story1 figure img {
+        margin: 0 2.5% 2.5% 2.5%;
+        max-width: 40%;
+        float: left;
+    }
+    .story figure img::after {
+        clear: both;
+    }
     .story1 h3{
         margin: 2.5%;
     }
