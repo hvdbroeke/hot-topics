@@ -203,7 +203,7 @@ p {
     }
 }
 
-@media screen and (min-width: 80rem) {
+@media screen and (max-width: 120rem) {
     .wrapper {
         max-width: 100rem;
     }
